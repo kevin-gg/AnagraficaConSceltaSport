@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagraficaConSceltaSport", "AnagraficaConSceltaSport\AnagraficaConSceltaSport.csproj", "{A268F45B-37B5-43C0-A232-0828790503EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A268F45B-37B5-43C0-A232-0828790503EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A268F45B-37B5-43C0-A232-0828790503EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A268F45B-37B5-43C0-A232-0828790503EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A268F45B-37B5-43C0-A232-0828790503EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C8F33EA-D0D0-4FCF-B5BE-DEB1E6D5A5C9}
+	EndGlobalSection
+EndGlobal

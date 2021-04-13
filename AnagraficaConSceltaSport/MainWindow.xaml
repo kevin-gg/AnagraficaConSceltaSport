@@ -1,0 +1,38 @@
+﻿<Window x:Class="AnagraficaConSceltaSport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnagraficaConSceltaSport"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="23" Margin="64,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEtà" HorizontalAlignment="Left" Height="23" Margin="64,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCognome" HorizontalAlignment="Left" Height="23" Margin="64,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="99,47,0,0" VerticalAlignment="Top"/>
+        <Label Content="Età" HorizontalAlignment="Left" Margin="112,220,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cognome" HorizontalAlignment="Left" Margin="91,137,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbNuoto" Content="Nuoto" HorizontalAlignment="Left" Margin="354,201,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbPallavolo" Content="Pallavolo" HorizontalAlignment="Left" Margin="352,180,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbCalcio" Content="Calcio" HorizontalAlignment="Left" Margin="354,160,0,0" VerticalAlignment="Top"/>
+        <Label Content="Seleziona uno sport" HorizontalAlignment="Left" Margin="316,123,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.598,0.519" Height="37" Width="165" FontSize="16"/>
+        <RadioButton x:Name="rdbJuventus" Content="Juventus" HorizontalAlignment="Left" Margin="613,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="Seleziona la squadra che preferisci" HorizontalAlignment="Left" Margin="556,34,0,0" VerticalAlignment="Top" Width="191"/>
+        <RadioButton x:Name="rdbInter" Content="Inter" HorizontalAlignment="Left" Margin="613,65,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbAtalanta" Content="Atalanta" HorizontalAlignment="Left" Margin="613,131,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbMilan" Content="Milan" HorizontalAlignment="Left" Margin="613,111,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbPhepls" Content="Michael Phepls" HorizontalAlignment="Left" Margin="606,308,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbSun" Content="Sun Yang" HorizontalAlignment="Left" Margin="606,348,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbMatt" Content="Matt Biondi" HorizontalAlignment="Left" Margin="609,328,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbAlain" Content="Alain Bernard" HorizontalAlignment="Left" Margin="606,368,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbLuca" Content="Luca Cantagalli" HorizontalAlignment="Left" Margin="609,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbIvan" Content="Ivan Zaytsev" HorizontalAlignment="Left" Margin="609,231,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbFilippo" Content="Filippo Lanza" HorizontalAlignment="Left" Margin="609,251,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbSamuele" Content="Samuele Papi" HorizontalAlignment="Left" Margin="609,211,0,0" VerticalAlignment="Top"/>
+        <Label Content="Seleziona il nuotatore che preferisci" HorizontalAlignment="Left" Margin="554,282,0,0" VerticalAlignment="Top" Width="202"/>
+        <Label Content="Seleziona il pallavolista che preferisci" HorizontalAlignment="Left" Margin="554,160,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnContinua1" Content="Continua" HorizontalAlignment="Left" Margin="52,314,0,0" VerticalAlignment="Top" Width="149" Height="41" FontSize="14" Click="btnContinua1_Click" />
+        <Button x:Name="btnContinua2" Content="Continua" HorizontalAlignment="Left" Margin="335,234,0,0" VerticalAlignment="Top" Width="103" Height="32" Click="btnContinua2_Click" />
+    </Grid>
+</Window>
